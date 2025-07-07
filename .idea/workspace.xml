@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef962eb-8bea-449e-9b5d-7687aa6d48a8" name="Changes" comment="Create initial structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/ArrayHasSumEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/training/solving/TwoSumTest.java" afterDir="false" />
+    <list default="true" id="aef962eb-8bea-449e-9b5d-7687aa6d48a8" name="Changes" comment="Two tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/FindSumPairsNonOptimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/FindSumPairsOptimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/training/solving/cases/FindSumPairsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.2/executionHistory/executionHistory.lock" afterDir="false" />
@@ -18,10 +20,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/training/solving/TaskSolvingApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/training/solving/cases/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -83,21 +85,31 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.FindSumPairsTest.findSumPairsTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.FindSumPairsTest.findSumPairsTestOptimal.executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.TaskSolvingApplicationTests.hasSumEqualTest.executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.task-solving [:com.training.solving.TaskSolvingApplication.main()].executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.training.solving.cases" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.training.solving.cases" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TaskSolvingApplicationTests.hasSumEqualTest">
+  <component name="RunManager" selected="Gradle.FindSumPairsTest.findSumPairsTestOptimal">
     <configuration name="TaskSolvingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.training.solving.TaskSolvingApplication" />
       <module name="solving.main" />
@@ -110,6 +122,54 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="FindSumPairsTest.findSumPairsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.training.solving.cases.FindSumPairsTest.findSumPairsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FindSumPairsTest.findSumPairsTestOptimal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.training.solving.cases.FindSumPairsTest.findSumPairsTestOptimal&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="TaskSolvingApplicationTests.hasSumEqualTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -137,6 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FindSumPairsTest.findSumPairsTestOptimal" />
+        <item itemvalue="Gradle.FindSumPairsTest.findSumPairsTest" />
         <item itemvalue="Gradle.TaskSolvingApplicationTests.hasSumEqualTest" />
         <item itemvalue="Application.TaskSolvingApplication" />
       </list>
@@ -158,11 +220,20 @@
       <option name="project" value="LOCAL" />
       <updated>1751531162427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Two tasks">
+      <option name="closed" value="true" />
+      <created>1751794004024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751794004024</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create initial structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create initial structure" />
+    <MESSAGE value="Two tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two tasks" />
   </component>
 </project>

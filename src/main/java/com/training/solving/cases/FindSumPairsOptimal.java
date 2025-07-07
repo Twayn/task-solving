@@ -14,9 +14,6 @@ class FindSumPairsOptimal {
         this.nums1 = nums1;
         this.nums2 = nums2;
 
-        String abc = "";
-        abc.substring(1, 3);
-
         for (int n2 : nums2) {
             numberToCountN2.merge(n2, 1, Integer::sum);
         }
